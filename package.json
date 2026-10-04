@@ -1,0 +1,9 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Library Management System (MERN Stack)",
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ../server && npm install",
+    "start": "cd server && node server.js"
+  }
+}
